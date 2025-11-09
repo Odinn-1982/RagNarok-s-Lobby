@@ -1,0 +1,47 @@
+{
+  "id": "ragnaroks-lobby",
+  "title": "RagNarok's Lobby",
+  "description": "A system-agnostic maintenance lobby module that prevents players from accessing the world while the GM performs maintenance. Players are presented with a full-screen overlay message while the lobby is active. Features countdown timers, customizable appearances, chat monitoring, and more!",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "RagNarok",
+      "url": "https://github.com/Odinn-1982"
+    }
+  ],
+  "license": "MIT",
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "styles": [
+    "styles/lobby.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "socket": true,
+  "packs": [],
+  "url": "https://github.com/Odinn-1982/ragnaroks-lobby",
+  "manifest": "https://github.com/Odinn-1982/ragnaroks-lobby/releases/download/1.0.0/module.json",
+  "download": "https://github.com/Odinn-1982/ragnaroks-lobby/releases/download/1.0.0/ragnaroks-lobby-1.0.0.zip",
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "bugs": "https://github.com/Odinn-1982/ragnaroks-lobby/issues",
+  "allowBugReporter": true,
+  "keywords": [
+    "maintenance",
+    "lobby",
+    "gm-tools",
+    "utility",
+    "server",
+    "downtime"
+  ]
+}

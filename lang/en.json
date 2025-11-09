@@ -1,0 +1,14 @@
+{
+  "game.settings.ragnaroks-lobby.lobbyActive.name": "Activate Maintenance Lobby",
+  "game.settings.ragnaroks-lobby.lobbyActive.hint": "When enabled, prevents all players from accessing the world and displays a maintenance message. The lobby state persists across reloads until toggled off.",
+  
+  "game.messages.ragnaroks-lobby.maintenance-title": "MAINTENANCE IN PROGRESS",
+  "game.messages.ragnaroks-lobby.maintenance-message": "The world is currently undergoing maintenance. Please stand by while the Game Master prepares for the next session. Access will be restored shortly.",
+  
+  "game.controls.ragnaroks-lobby.group-title": "Maintenance Lobby",
+  "game.controls.ragnaroks-lobby.toggle-lobby": "Toggle Maintenance Lobby",
+  
+  "game.notifications.ragnaroks-lobby.lobby-activated": "🚪 Maintenance Lobby activated. Players are now locked out.",
+  "game.notifications.ragnaroks-lobby.lobby-deactivated": "🚪 Maintenance Lobby deactivated. Players can now access the world.",
+  "game.notifications.ragnaroks-lobby.error": "An error occurred while toggling the lobby."
+}

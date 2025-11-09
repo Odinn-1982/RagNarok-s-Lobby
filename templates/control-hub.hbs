@@ -1,0 +1,42 @@
+<section class="ragnaroks-lobby-hub">
+  <header class="ragnaroks-lobby-hub__header">
+    <h1>Lobby Control Hub</h1>
+    <p class="ragnaroks-lobby-hub__subtitle">Centralize maintenance oversight and tools while the world is inaccessible to players.</p>
+  </header>
+  <div class="ragnaroks-lobby-hub__status" data-status="{{#if isActive}}active{{else}}inactive{{/if}}">
+    <span class="ragnaroks-lobby-hub__dot"></span>
+    <strong>{{#if isActive}}Lobby Active{{else}}Lobby Inactive{{/if}}</strong>
+    <span class="ragnaroks-lobby-hub__details">{{statusDetails}}</span>
+  </div>
+  <div class="ragnaroks-lobby-hub__layout">
+    <div class="ragnaroks-lobby-hub__column ragnaroks-lobby-hub__column--left">
+      {{#each controlsLeft}}
+        <button type="button" class="ragnaroks-lobby-hub__button" data-action="{{this.action}}">
+          <i class="{{this.icon}}" aria-hidden="true"></i>
+          <span>{{this.label}}</span>
+        </button>
+      {{/each}}
+    </div>
+    <div class="ragnaroks-lobby-hub__image-wrapper">
+      <img src="{{hubImage}}" alt="Lobby preview" class="ragnaroks-lobby-hub__image" />
+    </div>
+    <div class="ragnaroks-lobby-hub__column ragnaroks-lobby-hub__column--right">
+      {{#each controlsRight}}
+        <button type="button" class="ragnaroks-lobby-hub__button" data-action="{{this.action}}">
+          <i class="{{this.icon}}" aria-hidden="true"></i>
+          <span>{{this.label}}</span>
+        </button>
+      {{/each}}
+    </div>
+  </div>
+  <footer class="ragnaroks-lobby-hub__footer">
+    <button type="button" class="ragnaroks-lobby-hub__button-secondary" data-action="refresh-state">
+      <i class="fas fa-sync-alt" aria-hidden="true"></i>
+      <span>Refresh State</span>
+    </button>
+    <button type="button" class="ragnaroks-lobby-hub__button-secondary" data-action="close">
+      <i class="fas fa-times" aria-hidden="true"></i>
+      <span>Close Hub</span>
+    </button>
+  </footer>
+</section>
