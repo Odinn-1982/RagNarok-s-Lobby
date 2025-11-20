@@ -4,14 +4,14 @@ A comprehensive, system-agnostic prep mode module for Foundry VTT that prevents 
 
 ## Overview
 
-RagNarok's Lobby provides GMs with a powerful full-screen overlay system to manage player access during maintenance windows. When activated, players see a customizable maintenance message while the GM continues working behind the scenes. The system includes countdown timers, customizable appearances, chat monitoring, preset configurations, and analytics tracking.
+RagNarok's Lobby provides GMs with a powerful full-screen overlay system to manage player access during maintenance windows. When activated, players see a customizable prep message while the GM continues working behind the scenes. The system includes countdown timers, customizable appearances, chat monitoring, preset configurations, and analytics tracking.
 
 ## Key Features
 
 ### 🎭 Flexible Lobby System
 - **Instant Activation** - Toggle the lobby on/off with a single click
 - **Countdown Timers** - Set automatic re-entry times for players
-- **Custom Messages** - Display personalized maintenance messages
+- **Custom Messages** - Display personalized prep messages
 - **Custom Backgrounds** - Use your own images for the overlay
 - **Appearance Customization** - Control colors, fonts, opacity, and animations
 
@@ -87,11 +87,11 @@ RagNarok's Lobby provides GMs with a powerful full-screen overlay system to mana
 ### Module Settings
 
 **GM Preview Mode**
-- Allow yourself to see the maintenance overlay for testing
+- Allow yourself to see the message overlay for testing
 - *Scope: Client (per-user)*
 
 **Custom Lobby Message**
-- Override the default maintenance message with your own text
+- Override the default message with your own text
 - *Scope: World*
 
 **Custom Background Image**
@@ -107,7 +107,7 @@ RagNarok's Lobby provides GMs with a powerful full-screen overlay system to mana
 
 ### Appearance Customization
 Access the full appearance editor through the RagNarok's Lobby Hub:
-- **Title Color** - Customize the maintenance title color
+- **Title Color** - Customize the title color
 - **Message Color** - Change the message text color
 - **Button Color** - Customize interactive buttons
 - **Font Family** - Select from available fonts
@@ -123,7 +123,7 @@ Access the full appearance editor through the RagNarok's Lobby Hub:
 ### Chat Monitoring
 While the lobby is active, you can:
 - Monitor what players are saying in chat
-- Track player activity during maintenance
+- Track player activity during prep
 - View chat history in the monitoring panel
 
 ### Polls
@@ -194,7 +194,7 @@ Track lobby usage patterns:
 ## Credits & Acknowledgments
 
 **Special Thanks:**
-- To my amazing players who inspired this module through their patient support during maintenance sessions
+- To my amazing players who inspired this module through their patient support during prep sessions
 - To **Lisa**, my wonderful fiancée, for endless encouragement and support throughout development
 
 This module was created to solve real-world problems experienced during actual gameplay sessions and has been refined based on practical feedback from an engaged and supportive player community.
@@ -256,5 +256,6 @@ See [CHANGELOG.md](CHANGELOG.md) for version history and updates.
 **Author:** RagNarok  
 **Last Updated:** November 2025
 
-Enjoy managing your maintenance sessions! 🎭
+Enjoy managing your prep sessions! 🎭
+
 
