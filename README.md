@@ -1,6 +1,6 @@
 # RagNarok's Lobby
 
-A comprehensive, system-agnostic maintenance mode module for Foundry VTT that prevents players from accessing the world while the GM performs maintenance or prepares for the next session.
+A comprehensive, system-agnostic prep mode module for Foundry VTT that prevents players from accessing the world while the GM performs maintenance or prepares for the next session.
 
 ## Overview
 
@@ -257,3 +257,4 @@ See [CHANGELOG.md](CHANGELOG.md) for version history and updates.
 **Last Updated:** November 2025
 
 Enjoy managing your maintenance sessions! 🎭
+
